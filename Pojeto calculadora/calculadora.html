@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="Janela de Visualização" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora</title>
+  <link rel="stylesheet" href="CSS/styles.css">
+
+</head>
+<body>
+  <div class="calculator">
+    <input type="text" id="result" disabled>
+    <div class="buttons">
+      <button onclick="acrescentarNumero('7')">7</button>
+      <button onclick="acrescentarNumero('8')">8</button>
+      <button onclick="acrescentarNumero('9')">9</button>
+      <button onclick="acrescentarOperacao('/')">/</button>
+
+      <button onclick="acrescentarNumero('4')">4</button>
+      <button onclick="acrescentarNumero('5')">5</button>
+      <button onclick="acrescentarNumero('6')">6</button>
+      <button onclick="acrescentarOperacao('*')">*</button>
+
+      <button onclick="acrescentarNumero('1')">1</button>
+      <button onclick="acrescentarNumero('2')">2</button>
+      <button onclick="acrescentarNumero('3')">3</button>
+      <button onclick="acrescentarOperacao('-')">-</button>
+
+      <button onclick="limparResultado()">C</button>
+      <button onclick="acrescentarNumero('0')">0</button>
+      <button onclick="calcular()">=</button>
+      <button onclick="acrescentarOperacao('+')">+</button>
+    </div>
+  </div>
+  <script src="JS/script.js"></script>
+</body>
+</html>
